@@ -1,0 +1,8 @@
+{"final_env": "AlienDeterministic-v4",
+  "train_envs":["BankHeistDeterministic-v4",
+                "ChopperCommandDeterministic-v4",
+                "BerzerkDeterministic-v4"],
+  "optimizer": "RMSprop",
+  "target_freq": 10,
+  "policy_specs": {"gamma":0.99,"eps_start":0.9,
+                  "eps_end":0.05,"eps_decay":200}}

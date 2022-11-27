@@ -1,0 +1,4 @@
+gym==0.21.0
+gym[atari]==0.21.0
+gym[accept-rom-license]
+matplotlib
